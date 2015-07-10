@@ -1,0 +1,27 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.body{
+    margin-top: 0;
+}
+
+.full {
+    background-image: url("assets/grey_fondo.jpg");
+
+    background-size: cover;
+
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+
