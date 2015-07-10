@@ -3,14 +3,16 @@
     $mail = new PHPMailer();
     
     $mail->isSMTP();
-    $mail->Host = 'mail.guillermomack.com';
+    $mail->Host = 'xxxx';
     $mail->SMTPAuth = true;                               
-    $mail->Username = 'contacto@guillermomack.com';                 
-    $mail->Password = 'Cuar2425!';  
+    $mail->Username = 'xxxxx';                 
+    $mail->Password = 'xxxx';  
     $mail->SMTPSecure = 'ssl';
-    $mail->Port = 465; 
-    $mail->From = 'contacto@guillermomack.com';
+    $mail->Port = xxx; 
+    $mail->From = 'xxx';
     $mail->CharSet = 'UTF-8';
+    
+    //Took away Mail parameters for security purposes
     
     /*$errName = "";
     $errEmail = "";
@@ -27,7 +29,7 @@
     if(isset($_POST['human'])){$human = intval($_POST['human']);}
     $mail->isHTML(true);
     $mail->FromName = 'Página Web';
-    $mail->addAddress('contacto@guillermomack.com');
+    $mail->addAddress('xxx');
     $mail->Subject = 'Mensaje de Página Web';
     $mail->Body = "De: " . $name . "<br> Teléfono: " . $phone . "<br> E-Mail: " . $email . "<br> Mensaje:<br>" . $message;
 
